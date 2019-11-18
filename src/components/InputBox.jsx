@@ -90,6 +90,7 @@ const Label = styled.label `
   letter-spacing: 1px;
   transition: color 0.1s;
   font-size: calc(1.5 * ${props => props.theme.baseFontSize});
+  margin-right: calc(1 * ${props => props.theme.baseFontSize});
 `
 
 export default InputBox;
