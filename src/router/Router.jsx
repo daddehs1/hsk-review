@@ -2,16 +2,16 @@
 // component which routes application into different pages
 
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
-import {createBrowserHistory} from "history";
+import {MemoryRouter, Switch, Route} from 'react-router-dom';
+import {createMemoryHistory} from "history";
 
 import Select from '../pages/Select.jsx'
 import Review from '../pages/Review.jsx'
 import Overview from '../pages/Overview.jsx'
 
-const history = createBrowserHistory();
+const history = createMemoryHistory();
 function Router() {
-  return (<BrowserRouter history={history}>
+  return (<MemoryRouter history={history}>
 
     <Switch>
       <Route exact={true} path="/">
@@ -26,7 +26,7 @@ function Router() {
         <Overview/>
       </Route>
     </Switch>
-  </BrowserRouter>)
+  </MemoryRouter>)
 
 }
 
