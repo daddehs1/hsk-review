@@ -5,7 +5,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
-    "chart.js": "^2.9.2",
+    "chart.js": "^2.9.4",
     "classnames": "^2.2.6",
     "polished": "^3.4.1",
     "react": "^16.9.0",
